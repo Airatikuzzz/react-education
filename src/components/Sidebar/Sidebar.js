@@ -1,22 +1,21 @@
-import React from 'react';
-import './../App.css';
+import style from './Sidebar.module.css';
 
 const Sidebar = ()=> {
     return (
-        <nav className="sidebar">
-            <div>
+        <nav className={style.sidebar}>
+            <div className={style.menuItem}>
                 <a>Profile</a>
             </div>
-            <div>
+            <div className={style.menuItem}>
                 <a>Messages</a>
             </div>
-            <div>
+            <div className={style.menuItem}>
                 <a>News</a>
             </div>
-            <div>
+            <div className={style.menuItem}>
                 <a>Music</a>
             </div>
-            <div>
+            <div className={style.menuItem}>
                 <a>Settings</a>
             </div>
         </nav>
