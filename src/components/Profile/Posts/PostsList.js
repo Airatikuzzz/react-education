@@ -7,7 +7,9 @@ const PostsList = () => {
             <textarea></textarea>
             <button>Add post</button>
             <button>Remove post</button>
-            <Post/>
+            <Post message = 'First'/>
+            <Post message = 'Second'/>
+            <Post message = 'Third'/>
             <Post/>
             <Post/>
         </div>)
