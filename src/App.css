@@ -10,3 +10,7 @@
     grid-gap: 10px;
 
 }
+
+.content {
+    grid-area: content;
+}
