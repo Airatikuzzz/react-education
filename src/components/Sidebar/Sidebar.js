@@ -1,13 +1,14 @@
 import style from './Sidebar.module.css';
+import {NavLink} from "react-router-dom";
 
 const Sidebar = ()=> {
     return (
         <nav className={style.sidebar}>
             <div className={style.menuItem}>
-                <a>Profile</a>
+                <NavLink to="/profile" activeClassName={style.activeLink}>Profile</NavLink>
             </div>
             <div className={style.menuItem}>
-                <a>Messages</a>
+                <NavLink to="/dialogs" activeClassName={style.activeLink}>Messages</NavLink>
             </div>
             <div className={style.menuItem}>
                 <a>News</a>

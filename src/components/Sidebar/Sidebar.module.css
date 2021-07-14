@@ -4,3 +4,9 @@
 .menuItem{
     margin: 15px;
 }
+.menuItem a{
+    text-decoration: none;
+}
+.menuItem .activeLink{
+    color: green;
+}
